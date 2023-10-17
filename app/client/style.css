@@ -1,28 +1,32 @@
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-
-/* Set up some CSS variables to theme the application. */
-:root {
-  --matr-navbar-bg: #ECECEC;
-  --matr-navbar-bg-rgb: 236, 236, 236;
+#top-bar{
+  background-color: black;
+  color: white!important;
 }
-
-/* Change bootstrap variable values.
- See https://getbootstrap.com/docs/5.2/customize/css-variables/
- */
-body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
+.navbar-brand{
+  color:white;
 }
-
-/* Set the alert background on the signin and signup pages. */
-#signin-page .alert-light, #signup-page .alert-light {
-  --bs-alert-bg: var(--matr-navbar-bg);
+.navbar-brand:hover{
+  color: white;
 }
-
-/* Define custom styles */
-.gray-background {
-  background-color: var(--matr-navbar-bg);
-  color: var(--bs-dark);
-  padding-top: 10px;
-  padding-bottom: 20px;
+.font-size{
+  font-size: 14px;
+}
+.bg-color{
+  background-color: #403836;
+  color: white!important;
+}
+.text-two{
+  font-size:12px;
+}
+.underline{
+  text-decoration: underline;
+}
+.bg{
+  background-color: #7f7468;
+}
+.line{
+  background-color: #7f7468;
+  width: 15vw;
+  height: 1px;
+  margin-top: 5vw;
 }
