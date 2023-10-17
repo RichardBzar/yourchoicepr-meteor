@@ -3,8 +3,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row, Stack } from 'react-bootstrap';
 import { Facebook, Instagram, Twitter } from 'react-bootstrap-icons';
 
+const styles = `
+.bg-color{
+  background-color: #403836;
+  color: white!important;
+}
+.text-two{
+  font-size:12px;
+}
+.bg{
+  background-color: #7f7468;
+}
+.line{
+  background-color: #7f7468;
+  width: 15vw;
+  height: 1px;
+  margin-top: 5vw;
+}
+
+`;
+
 const Footer = () => (
   <Container fluid className="px-0 bg-color my-4 py-3 mb-0">
+    <style>{styles}</style>
     <Container>
       <Row>
         <Col>
